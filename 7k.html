@@ -35,8 +35,9 @@
   ">Remove from Cart</button>
 
  <button onclick="
-    updateCartquantity(0);
-    console.log('Cart was Reset.');
+    cartQuantity = 0;
+    alert(`Cart quantity: ${cartQuantity}
+    Cart was Reset.`);
   ">Reset cart</button>
 
   <button onclick="
@@ -61,4 +62,5 @@
     } 
   </script>
 </body>
+
 </html>
